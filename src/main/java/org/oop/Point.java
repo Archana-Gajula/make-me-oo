@@ -1,8 +1,8 @@
 package org.oop;
 
 public class Point {
-    private double x;
-    private double y;
+    private final double x;
+    private final double y;
 
     public double getX() {
         return x;
